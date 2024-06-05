@@ -33,7 +33,7 @@ class TraceUsedTables:
                     logs.append({f"Step: {step.kind} - {step.substeps}"})
                     substring = 'FROM'
                     # Using list comprehension with enumerate to find positions
-                    positions = [index for index, value in enumerate(step.substeps) if substring in value and '__' not in value[value.find(substring) + len(substring):]]            
+                    positions = [index for index, value in enumerate(step.substeps) if substring in value and '__SHUFFLE' not in value[value.find(substring) + len(substring):] and '__stage' not in value[value.find(substring) + len(substring):]]             
                     if positions:
                         position = positions[0]                
                         tables.append({'Table': step.substeps[position]})
