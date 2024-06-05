@@ -1,0 +1,26 @@
+{                
+    "projectId": "",
+    "authJson": "",        
+    "Catalog": {
+        "projectId": "", 
+        "authJson": "account/catalog_service_account.json",     
+        "datasetId": ""
+    },
+    "Vertex": {        
+        "projectId": "", 
+        "authJson": "account/catalog_service_account.json",     
+        "gemini": "gemini-1.5-pro-001",
+        "location": "us-central1"
+    },
+    "Documentation": {
+        "projectId": "", 
+        "authJson": "account/documentation_service_account.json",     
+        "datasetId": "",
+        "views":[                   
+        ],
+        "languages": [          
+            "English",
+            "Portuguese"
+        ]
+    }
+}

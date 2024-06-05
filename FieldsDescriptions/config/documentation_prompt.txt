@@ -1,0 +1,30 @@
+Analyze the following SQL code, which is a reporting view for SAP systems.
+Do not make any explanation, markdown or comments, the output must be only the json.
+
+```sql
+"""+input_sql+"""
+```
+
+Generation of JSON formatted documentation with languages: ["""+input_language+"""]. The documentation should cover the following sections:
+
+1. **Overview:** A concise description of the view\'s functionality.
+2. **Data Sources:** A list of the source tables and a table description.
+3. **Key Use:** Use cases for this view in business scenarios.
+4. **Query Logic:** A brief explanation of the query\'s logic.
+5. **SAP Transactions:** Possible relationships with standard SAP transaction codes.
+6. **SAP Module: ** Identify the core SAP Module.
+
+Return just the JSON output should follow this structure:
+
+{
+  \"ENGLISH\": {
+    \"OVERVIEW\": {...}
+    \"DATA_SOURCES\": {\"table\":\"table_description\"},
+    \"KEY_USE\": [...],
+    \"QUERY_LOGIC\": \"{...},
+    \"SAP_TRANSACTIONS\": {\"transaction\":\transaction_description\"},
+    \"SAP_MODULE\": {...},
+  },
+\"PORTUGUESE\": {},
+\"SPANISH\": {},
+}

@@ -1,0 +1,30 @@
+{
+  "English": {
+    "OVERVIEW": "Overview",
+    "DATA_SOURCES": {
+      "Section_Description": "Data Sources",
+      "Source": "Source Table/View",
+      "DS_Description": "Description"
+    },
+    "REQUIRED_TABLES": "Required tables",
+    "KEY_USE": "Key Use Cases",
+    "QUERY_LOGIC": "Query Logic",
+    "SAP_TRANSACTIONS": {
+      "Section_Description": "Possible relation with SAP Transactions",
+      "Transaction": "Transaction Code",
+      "Tx_Description": "Transaction Description"
+    },
+    "SAP_MODULE": "Core SAP module",
+    "SOURCE_FIELDS": {
+      "Section_Description": "Table/View Fields",
+      "Field": "Field",
+      "Description": "Field Description",
+      "SAP_Dict_Description": "Description in SAP Dictionary (Comming soon)"
+    },
+    "LINEAGE": {
+      "Section_Description": "Data Lineage",
+      "Description": "Under Development"
+    },
+    "ORIGINAL_LINK": "Source SQL File - Google Cloud Cortex Data Foundation"
+  }
+}

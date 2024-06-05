@@ -1,0 +1,84 @@
+{
+  "ENGLISH": {
+    "OVERVIEW": "Overview",
+    "DATA_SOURCES": 
+      { "Section_Description": "Data Sources",
+        "Source": "Source Table/View",
+        "DS_Description": "Description"
+      },
+    "KEY_USE": "Key Use Cases",
+    "QUERY_LOGIC": "Query Logic",
+    "SAP_TRANSACTIONS": 
+    { "Section_Description": "Possible relation with SAP Transactions",
+      "Transaction": "Transaction Code",
+      "Tx_Description": "Transaction Description"
+    },
+    "SAP_MODULE": "Core SAP module",    
+    "SOURCE_FIELDS": 
+    { "Section_Description": "Table/View Fields",
+      "Field": "Field",
+      "Description": "Field Description",
+      "SAP_Dict_Description": "Description in SAP Dictionary (Comming soon)"
+    },
+    "LINEAGE":
+    {
+      "Section_Description": "Data Lineage",
+      "Description": "Under Development"
+    },       
+    "ORIGINAL_LINK": "Source SQL File - Google Cloud Cortex Data Foundation"
+  },
+  "PORTUGUESE": {
+    "OVERVIEW": "Visão geral",
+    "DATA_SOURCES":       
+    { "Section_Description": "Fontes de Dados",
+      "Source": "Tabela/Visão",
+      "DS_Description": "Descrição"
+    },
+    "KEY_USE": "Casos de Uso",
+    "QUERY_LOGIC": "Logica da Query",
+    "SAP_TRANSACTIONS": 
+    { "Section_Description": "Possível relação com transações SAP",
+      "Transaction": "Código da Transação",
+      "Tx_Description": "Descrição da Transação"
+    },
+    "SAP_MODULE": "Módulo principal do SAP",
+    "SOURCE_FIELDS": 
+    { "Section_Description": "Campos da Tabela/Visão",
+      "Field": "Campo",
+      "Description": "Descrição do Campo",
+      "SAP_Dict_Description": "Descrição no Dicionário SAP (Em breve)"
+    },
+    "LINEAGE": {
+      "Section_Description": "Linhagem de dados",
+      "Description": "Em desenvolvimento"
+    },
+    "ORIGINAL_LINK": "Arquivo SQL de origem - Google Cloud Cortex Data Foundation"
+  },
+  "SPANISH": {
+    "OVERVIEW": "Descripción general",
+    "DATA_SOURCES": 
+    { "Section_Description": "Fuentes de datos",
+      "Source": "Tabla/vista de origen",
+      "DS_Description": "Descripción"
+    },
+    "KEY_USE": "Casos de uso clave",
+    "QUERY_LOGIC": "Lógica de consulta",
+    "SAP_TRANSACTIONS": 
+    { "Section_Description": "Posible relación con SAP Transactions",
+      "Transaction": "Codigo de transacción",
+      "Tx_Description": "Descripción de la transacción"
+    },
+    "SAP_MODULE": "Módulo central de SAP",    
+    "SOURCE_FIELDS": 
+    { "Section_Description": "Campos de tabla/vista",
+      "Field": "Campo",
+      "Description": "Descripción del campo",
+      "SAP_Dict_Description": "Descripción del Diccionario SAP (Em breve)"
+    },
+    "LINEAGE": {
+      "Section_Description": "Linaje de datos",
+      "Description": "Em desarollo"
+    },
+    "ORIGINAL_LINK": "Archivo SQL de origen: Google Cloud Cortex Data Foundation"
+  }
+}

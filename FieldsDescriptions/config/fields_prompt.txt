@@ -1,0 +1,29 @@
+Analyze the following SQL code, which is a reporting view for SAP systems.
+Do not make any explanation, markdown or comments, the output must be only the json.
+
+```sql
+"""+input_sql+"""
+```
+
+Generation of JSON formatted documentation only with languages: ["""+input_language+"""]. The documentation should cover the following sections:
+
+1. **Fields and Descriptions:* A list of view\'s fields and descriptions.
+
+Return just the JSON output should follow this structure:
+
+{
+  \"LANGUAGE1\": {
+    {\"field\": \"description\"},    
+  },
+  \"LANGUAGE2\": {
+    {\"field\": \"description\"},    
+  },
+  \"LANGUAGE3\": {
+    {\"field\": \"description\"},    
+  },
+  ...
+}
+
+Return just fields that is in this list 
+
+"""+input_fields+"""
