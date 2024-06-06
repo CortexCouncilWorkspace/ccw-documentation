@@ -291,8 +291,8 @@ if len(df_LTabField_all) > 0:
     traced_tables_all.to_csv(f'{path}', index=False)       
     # Get Catalog data
     print(f'Running - Get Catalog Data')
-    df_catalog = cls.get_customer_catalog(traced_tables_all['Table'].drop_duplicates().tolist())
-    if not df_catalog.empty:
+    if not traced_tables_all.empty:
+        df_catalog = cls.get_customer_catalog(traced_tables_all['Table'].drop_duplicates().tolist())
         # Save Catalog to csv file
         # path = f'{cls.path}/output/Catalog.csv'
         # df_catalog.to_csv(f'{path}', index=False)    
