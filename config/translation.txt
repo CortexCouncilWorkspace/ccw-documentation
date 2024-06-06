@@ -10,7 +10,9 @@ Return just the JSON output should follow this structure:
         "Source": "Source Table/View",
         "DS_Description": "Description"
       },
-    "REQUIRED_TABLES":"Required tables",  
+    "REQUIRED_TABLES": 
+      { "Source": "Required Tables"        
+      },  
     "KEY_USE": "Key Use Cases",
     "QUERY_LOGIC": "Query Logic",
     "SAP_TRANSACTIONS": 

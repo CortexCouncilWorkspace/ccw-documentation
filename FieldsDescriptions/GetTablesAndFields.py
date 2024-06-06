@@ -73,7 +73,7 @@ class GetTablesAndFields:
         # Create a BigQuery client using the JSON key file
         self.cat_BQclient = bigquery.Client.from_service_account_json(f'{self.parent_folder}/{self.cat_authJson}')
         self.doc_BQclient = bigquery.Client.from_service_account_json(f'{self.parent_folder}/{self.doc_authJson}')
-        
+                
     def get_bq_views(self):
         # Get tables in the dataset and filter for views
         tables = self.doc_BQclient.list_tables(self.doc_datasetId)
@@ -290,7 +290,7 @@ if len(df_LTabField_all) > 0:
     path = f'{cls.path}/output/Trace.csv'
     traced_tables_all.to_csv(f'{path}', index=False)       
     # Get Catalog data
-    print(f'Running - Get Catalog Data')
+    print(f'Running - Get Catalog Data')    
     if not traced_tables_all.empty:
         df_catalog = cls.get_customer_catalog(traced_tables_all['Table'].drop_duplicates().tolist())
         # Save Catalog to csv file
